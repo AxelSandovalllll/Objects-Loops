@@ -1,11 +1,24 @@
 .recipes {
     display: flex;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
+    border: 10px;
+    border-style: double;
+    border-radius: 75px;
+    border-color: goldenrod;
 }
 
 .recipes>div {
-    margin: 2em;
+    margin: 5em;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
 }
